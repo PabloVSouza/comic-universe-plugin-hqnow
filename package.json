@@ -1,6 +1,6 @@
 {
-  "name": "comic-universe-plugin-template",
-  "version": "0.0.1",
+  "name": "comic-universe-plugin-hqnow",
+  "version": "0.9.0",
   "main": "dist/index.js",
   "scripts": {
     "package": "rimraf --glob ./comic-universe-plugin-template*.tgz && npm pack",
@@ -15,7 +15,13 @@
   ],
   "author": "Pablo Souza",
   "license": "MIT",
-  "description": "Plugin template for creating plugins for Comic Universe 2.0 onwards.",
+  "description": "Plugin for supporting HQ Now as a repository",
+  "dependencies": {
+    "@apollo/client": "^3.11.2",
+    "cross-fetch": "^4.0.0",
+    "qs": "^6.13.0",
+    "react": "^18.3.1"
+  },
   "devDependencies": {
     "@types/node": "^22.1.0",
     "@types/qs": "^6.9.15",
@@ -23,6 +29,5 @@
     "rimraf": "^6.0.1",
     "tsc": "^2.0.4",
     "typescript": "^5.5.4"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  }
 }
