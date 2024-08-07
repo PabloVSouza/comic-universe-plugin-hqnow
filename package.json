@@ -3,7 +3,7 @@
   "version": "0.9.0",
   "main": "dist/index.js",
   "scripts": {
-    "package": "rimraf --glob ./comic-universe-plugin-template*.tgz && npm pack",
+    "package": "rimraf --glob ./comic-universe-plugin-hqnow*.tgz && npm pack",
     "build": "tsc"
   },
   "keywords": [
