@@ -2,6 +2,10 @@
   "name": "comic-universe-plugin-hqnow",
   "version": "0.9.0",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablovsouza/comic-universe-plugin-hqnow.git"
+  },
   "scripts": {
     "package": "rimraf --glob ./comic-universe-plugin-hqnow*.tgz && npm pack",
     "build": "tsc",
