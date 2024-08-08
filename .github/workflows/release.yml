@@ -23,7 +23,7 @@ jobs:
         run: npm i
 
       - name: Build Package
-        run: yarn run build
+        run: npm run build
 
       - name: release
         uses: softprops/action-gh-release@v2
