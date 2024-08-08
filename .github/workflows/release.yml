@@ -28,7 +28,6 @@ jobs:
       - name: release
         uses: softprops/action-gh-release@v2
         with:
-          draft: true
           files: |
             dist/*.tgz
             dist/*.tar.gz
