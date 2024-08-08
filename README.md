@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/pablovsouza/comic-universe/blob/master/src/renderer/assets/icon.svg?raw=true" width="200">
-  <h1>Comic Universe Plugin Template</h1>
+  <h1>Comic Universe Plugin -  HQ Now</h1>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
   <a href="https://github.com/prisma/prisma/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" /></a>
   <a href="https://discord.gg/gPsQkDGDfc"><img alt="Discord" src="https://img.shields.io/discord/1270554232260526120?label=Discord"></a>
@@ -20,7 +20,7 @@
 
 ## What is this for?
 
-This project is a base template for creating comic repositories for the app [**Comic Universe**](https://github.com/pablovsouza/comic-universe).
+This is a plugin for [**Comic Universe**](https://github.com/pablovsouza/comic-universe), developed by forking the [**template**](https://github.com/pablovsouza/comic-universe-plugin-template), with the goal of fetching data from [HQ Now](https://www.hq-now.com/).
 
 Feel free to fork this repository and start developing your own plugin, just following the typescript interfaces provided, as well as **being compatible with NPM**.
 
