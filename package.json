@@ -17,7 +17,7 @@
     "template"
   ],
   "scripts": {
-    "package": "rimraf --glob ./comic-universe-plugin-hqnow*.tgz && npm pack",
+    "package": "rimraf --glob dist/comic-universe-plugin-hqnow*.tgz && npm pack --pack-destination dist",
     "build": "tsc && npm run package",
     "postinstall": "npm run build"
   },
