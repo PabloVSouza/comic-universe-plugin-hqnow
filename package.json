@@ -22,14 +22,12 @@
   "license": "MIT",
   "description": "Plugin for supporting HQ Now as a repository",
   "dependencies": {
-    "@apollo/client": "^3.11.2",
-    "cross-fetch": "^4.0.0",
-    "qs": "^6.13.0",
+    "@apollo/client": "^3.11.4",
+    "graphql": "^16.9.0",
     "react": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.1.0",
-    "@types/qs": "^6.9.15",
     "nodemon": "^3.1.4",
     "rimraf": "^6.0.1",
     "typescript": "^5.5.4"

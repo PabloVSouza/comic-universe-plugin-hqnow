@@ -1,5 +1,4 @@
-import { ApolloClient, gql, HttpLink, InMemoryCache, NormalizedCacheObject } from '@apollo/client'
-import fetch from 'cross-fetch'
+import { ApolloClient, gql, InMemoryCache, NormalizedCacheObject } from '@apollo/client'
 
 class HQNowRepoPlugin implements IRepoPluginRepository {
   public RepoName = 'HQ Now'
@@ -13,7 +12,7 @@ class HQNowRepoPlugin implements IRepoPluginRepository {
     })
     this.client = new ApolloClient({
       cache,
-      link: new HttpLink({ uri: this.RepoUrl, fetch })
+      uri: this.RepoUrl
     })
   }
 
