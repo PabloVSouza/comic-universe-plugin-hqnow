@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/pablovsouza/comic-universe-plugin-hqnow.git"
   },
+  "icon": "icon.svg",
   "keywords": [
     "comic-universe",
     "comic",
