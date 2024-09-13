@@ -5,10 +5,7 @@
   "author": "Pablo Souza",
   "license": "MIT",
   "description": "Plugin for supporting HQ Now as a repository",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pablovsouza/comic-universe-plugin-hqnow.git"
-  },
+  "repository": "https://github.com/pablovsouza/comic-universe-plugin-hqnow",
   "icon": "icon.svg",
   "keywords": [
     "comic-universe",
